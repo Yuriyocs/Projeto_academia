@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academia Neon</title>
+    <!-- Icones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/GYM04.png">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+        <nav>
+          <a href="#">
+            <img src="img/GYM04.png" alt="hDC Host" class="logo" />
+          </a>
+          <ul class="navbar-items">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Preço</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+            <li>
+              <a href="#" class="default-btn">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main>
+        <div class="main-banner">
+          <h1>Academia Neon</h1>
+          <p>Os melhores aparelhos e instrutores, você só encontra aqui!</p>
+        </div>
+        <section class="services-container">
+          <ul>
+            <li>
+              <i class="fas fa-user"></i>
+              <h3>Cliente</h3>
+              <p>
+                Nossa academia é um espaço dedicado ao treinamento físico, onde
+                as pessoas podem realizar exer cícios para melhorar sua saúde,
+                condicionamento físic o, força muscular, perder peso ou
+                simplesmente para se manterem ativas. Em nossas academias
+                oferecemos uma variedade de equipamentos, como esteiras,
+                bicicletas, pesos livres, e máquinas de musculação, além de
+                aulas como yoga, pilates, dança, e treinamento funcional.
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-rocket"></i>
+              <h3>Performance</h3>
+              <p>
+                A performance da nossa academia se refere à eficiência com que
+                ela atende seus clientes, oferecendo um ambiente motivador e bem
+                equipado para alcançar resultados físicos e de saúde. Isso
+                envolve a qualidade dos equipamentos, a variedade e o nível das
+                aulas oferecidas, a qualificação dos profissionais, a limpeza e
+                manutenção do espaço, e a capacidade de criar um ambiente
+                acolhedor e motivacional.
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-comments"></i>
+              <h3>Comentário</h3>
+              <p>
+                “Eu adoro treinar nessa academia! Os aparelhos são super
+                modernos e bem conservados, o que faz toda a diferença nos
+                treinos. Os instrutores são atenciosos e sempre dispostos a
+                ajudar, corrigindo a postura e dando dicas para melhorar o
+                desempenho. O ambiente é bem organizado, limpo e sempre com uma
+                energia positiva, o que me motiva a vir todos os dias. Recomendo
+                demais para quem busca resultados e um atendimento de
+                qualidade!”
+              </p>
+            </li>
+          </ul>
+        </section>
+        <selection class="princing-container">
+          <h2>Planos e Preços</h2>
+          <p>Selecione o plano que atende as suas necessidades</p>
+          <div class="plans-container">
+            <div class="plan">
+              <ul>
+                <li class="price">R$79,99/mês</li>
+                <li class="plan-name">Básico</li>
+                <li>Aula coletiva 1 por semana</li>
+                <li>Guarda volume</li>
+                <li>1 avaliação física/trimestral</li>
+                <li>Acesso aos aparelhos de cardio</li>
+                <li>Sortei mensal de brinde</li>
+                <li class="plan-btn">Saiba mais</li>
+              </ul>
+            </div>
+            <div class="plan">
+              <ul>
+                <li class="price recommended">R$119,99/mês</li>
+                <li class="plan-name">Plus</li>
+                <li>Aula coletiva 2 por semana</li>
+                <li>Guarda volume</li>
+                <li>Personal 2 sessões por mês</li>
+                <li>2 avaliação física/trimestral</li>
+                <li>Descontos em suplementos</li>
+                <li class="plan-btn">Saiba mais</li>
+              </ul>
+            </div>
+            <div class="plan">
+              <ul>
+                <li class="price">R$199,99/mês</li>
+                <li class="plan-name">Plus+</li>
+                <li>Aula coletiva ilimitado</li>
+                <li>Guarda volume</li>
+                <li>Personal 1 sessão por semana</li>
+                <li>Avaliação física mensal</li>
+                <li>Acesso à sauna e piscina</li>
+                <li class="plan-btn">Saiba mais</li>
+              </ul>
+            </div>
+          </div>
+        </selection>
+        <section class="searchdomain-container">
+          <h2>Receba mais informações sobre nossa academia e descontos</h2>
+          <p>Informe seu e-mail abaixo:</p>
+          <form>
+            <input 
+              type="text"
+              name="domain"
+              id="domain"
+              placeholder="Digite seu e-mail"/>
+            <input type="submit" value="Enviar">  
+          </form>
+        </section>
+        <section class="contact-container">
+          <h2>Mande uma mensagem</h2>
+          <p>Envie a sua mensagem e retornaremos via whatsapp e e-mail</p>
+          <form>
+            <input type="text" name="name" id="name" placeholder="Seu nome">
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">
+            <textarea name="message" id="message" placeholder="Descreva o que você precisa"></textarea> 
+            <input type="submit" value="Enviar">
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Academia Neon 2024</p>
+      </footer>
+    </div>
+  </body>
+</html>
